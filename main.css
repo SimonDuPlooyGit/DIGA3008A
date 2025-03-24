@@ -1,4 +1,28 @@
+body {
+    background-color: #393939;
+    margin: 0 auto;
+    width: 70vw;
+    background-image: url("media/Blamev3_024_025.webp");
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    overflow: auto;
+}
+
 nav {
-    position: sticky;
-    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #969696;
+}
+
+nav li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 0.1px;
+    padding: 0.2em;
+}
+
+main {
+    background-color: #393939;
+    color: white;
 }
