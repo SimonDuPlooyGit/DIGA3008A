@@ -5,5 +5,14 @@ header {
     justify-items: center;
 }
 
+.portfolio {
+    display: grid;
+    grid-template: repeat(2, 34vw) / repeat(2, 34vw);
+    justify-items: center;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+}
+
 
 

@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
     background-size: 100vw 100vh;
     overflow: auto;
+    font-family: 
 }
 
 nav {
@@ -25,4 +26,30 @@ nav li {
 main {
     background-color: #393939;
     color: white;
+}
+
+
+.caveat-regular {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.caveat-medium {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.caveat-semibold {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.caveat-bold {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
