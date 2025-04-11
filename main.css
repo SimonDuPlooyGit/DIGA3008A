@@ -8,6 +8,13 @@ body {
     overflow: auto;
 }
 
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -23,11 +30,37 @@ nav li {
     font-size: 3em;
 }
 
+.topagraph {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.topheading {
+    margin-top: 0%;
+}
+
 main {
     background-color: #393939;
     color: white;
 }
 
+ol {
+    margin: 0%;
+    background-color: #393939;
+    color: white;
+}
+
+a {
+    color: green
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: salmon
+}
 
 .caveat-regular {
     font-family: "Caveat", cursive;
