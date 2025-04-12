@@ -1,10 +1,3 @@
-header {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
-
 .portfolio {
     display: grid;
     grid-template: repeat(2, 34vw) / repeat(2, 34vw);
@@ -14,5 +7,27 @@ header {
     align-content: center;
 }
 
+.h-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.1fr 0.5fr;
+}
+
+.u-photo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    height: auto;
+}
+
+span {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 120%;
+}
+
+.bannerp {
+    font-size: 200%;
+}
 
 

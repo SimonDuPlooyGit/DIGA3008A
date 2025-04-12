@@ -20,11 +20,12 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #969696;
+    position: sticky;
+    top: 0;
 }
 
 nav li {
     list-style-type: none;
-    border: 1px solid black;
     border-radius: 0.1px;
     padding: 0.2em;
     font-size: 3em;
@@ -50,16 +51,17 @@ ol {
     color: white;
 }
 
-a {
-    color: green
+a{
+    color: green;
+    text-decoration: none;
 }
 
 a:visited {
-    color: white
+    color: white;
 }
 
 a:hover {
-    color: salmon
+    color: salmon;
 }
 
 .caveat-regular {
@@ -85,4 +87,8 @@ a:hover {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+}
+
+.bottom-paragraph {
+    margin-bottom: 0%;
 }
