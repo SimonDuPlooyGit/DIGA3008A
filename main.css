@@ -29,7 +29,7 @@ nav li {
     list-style-type: none;
     border-radius: 0.1px;
     padding: 0.2em;
-    font-size: 3em;
+    font-size: 300%;
 }
 
 .topagraph {
@@ -92,4 +92,13 @@ a:hover {
 
 .bottom-paragraph {
     margin-bottom: 0%;
+}
+
+@media (max-width: 750px){
+    nav li {
+        list-style-type: none;
+        border-radius: 0.1px;
+        padding: 0.2em;
+        font-size: 100%;
+    }
 }

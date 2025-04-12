@@ -34,4 +34,35 @@ video {
     width: 100%;
 }
 
+@media (max-width: 750px){
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: baseline;
+        justify-content: center;
+        align-content: center;
+    }
 
+    .bannerp {
+        font-size: 100%;
+    }
+
+    .h-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .u-photo {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+        height: auto;
+    }
+
+    span {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        font-size: 120%;
+    }
+}
