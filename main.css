@@ -101,4 +101,9 @@ a:hover {
         padding: 0.2em;
         font-size: 100%;
     }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
