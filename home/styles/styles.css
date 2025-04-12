@@ -1,6 +1,6 @@
 .portfolio {
     display: grid;
-    grid-template: repeat(2, 34vw) / repeat(2, 34vw);
+    grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-items: baseline;
     justify-content: center;
@@ -28,6 +28,10 @@ span {
 
 .bannerp {
     font-size: 200%;
+}
+
+video {
+    width: 100%;
 }
 
 
