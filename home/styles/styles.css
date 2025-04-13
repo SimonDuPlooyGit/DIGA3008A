@@ -24,8 +24,13 @@ span {
     font-size: 120%;
 }
 
+.p-name {
+    margin: 0%;
+}
+
 .bannerp {
     font-size: 200%;
+    margin: 0%;
 }
 
 video {
@@ -49,6 +54,7 @@ video {
     .h-card {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows:auto
     }
 
     .u-photo {
@@ -61,6 +67,6 @@ video {
     span {
         grid-column-start: 1;
         grid-column-end: 2;
-        font-size: 120%;
+        font-size: 80%;
     }
 }
