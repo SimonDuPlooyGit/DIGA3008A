@@ -137,17 +137,47 @@ img {
     margin-right: auto;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1024px){ /*Tablet form factor*/
+    h1 {
+        font-size: 300%;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        background-color: #393939;
+        margin: 0 auto;
+        width: 90vw;
+        background-image: url("media/Blamev3_024_025.webp");
+        background-attachment: fixed;
+        background-size: 100vw 100vh;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 1024px) { /*Tablet form factor*/
     nav li {
         list-style-type: none;
         border-radius: 0.1px;
         padding: 0.2em;
-        font-size: 100%;
+        font-size: 400%;
     }
+}
 
-    img {
-        width: 100%;
-        height: auto;
+@media (max-width: 750px){ /*Mobile form factor*/
+    nav li {
+        list-style-type: none;
+        border-radius: 0.1px;
+        padding: 0.2em;
+        font-size: 200%;
     }
 
     h1 {

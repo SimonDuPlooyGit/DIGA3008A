@@ -37,7 +37,27 @@ video {
     width: 100%;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1024px){ /*Tablet form factor*/
+    span {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 150%;
+    }
+
+    .u-photo {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .bannerp {
+        font-size: 300%;
+        margin: 0%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 750px){ /*Mobile form factor*/
     .portfolio {
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -47,26 +67,17 @@ video {
         align-content: center;
     }
 
-    .bannerp {
-        font-size: 100%;
-    }
-
     .h-card {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:auto
     }
 
-    .u-photo {
-        grid-row-start: 1;
-        grid-row-end: 2;
-        width: 100%;
-        height: auto;
+    .bannerp {
+        font-size: 150%;
     }
 
     span {
-        grid-column-start: 1;
-        grid-column-end: 2;
         font-size: 80%;
     }
 }
