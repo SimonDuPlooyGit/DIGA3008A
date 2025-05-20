@@ -3,7 +3,6 @@
     
 }*/
 
-
 let toTopLink = document.querySelector(".ToTop");
 let prevScrollPos = window.pageYOffset;
 
