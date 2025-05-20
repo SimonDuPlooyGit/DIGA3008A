@@ -37,16 +37,16 @@ nav li {
 }
 
 .ToTop {
-    font-size: 3em;
+    font-size: 2.5em;
     position: fixed;
     right: 15px;
-    bottom: 15px;
+    bottom: -100px;
 
     background-color: black;
     padding: 0;
     margin: 0;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out
+    border-radius: 80%;
+    transition: transform 1s ease-in-out
 }
 
 .topagraph {

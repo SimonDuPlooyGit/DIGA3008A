@@ -19,7 +19,7 @@ const scrolling = () => {
     document.body.style.backgroundColor = scrollingDown ? "red" : "blue";
 
     if (scrollingDown) {
-        toTopLink.style.bottom = "-30px";
+        toTopLink.style.bottom = "-100px";
     } else if (!scrollingDown && scrollPos > viewHeight) {
         toTopLink.style.bottom = "15px";
     }
