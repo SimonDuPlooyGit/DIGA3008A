@@ -1,28 +1,31 @@
+/**addEventListener("DOMContentLoaded", (event) => { })
+{
+    
+}*/
+
+
 let toTopLink = document.querySelector(".ToTop");
-let prevScrollPos = 0;
+let prevScrollPos = window.pageYOffset;
 
-const isScrollingDown = () => {
-    let scrollingDown = false;
-    let scrollPos = window.pageYOffset;
-
-    if (scrollPos > prevScrollPos) {
-        scrollingDown = true;
-    }
-
-    prevScrollPos = scrollPos;
-
-    return scrollingDown
-}
+const isScrollingDown = (scrollPos) => {
+    return scrollPos > prevScrollPos;
+};
 
 const scrolling = () => {
     let viewHeight = window.innerHeight;
     let scrollPos = window.pageYOffset;
+    let scrollingDown = isScrollingDown(scrollPos);
 
-    if (isScrollingDown()) {
-        toTopLink.style.visibility = "hidden";
-    } else if (isScrollingDown() === false && scrollPos > viewHeight) {
-        toTopLink.style.visibility = "visible";
+    // Debug color change
+    document.body.style.backgroundColor = scrollingDown ? "red" : "blue";
+
+    if (scrollingDown) {
+        toTopLink.style.bottom = "-30px";
+    } else if (!scrollingDown && scrollPos > viewHeight) {
+        toTopLink.style.bottom = "15px";
     }
-}
+
+    prevScrollPos = scrollPos; // Update after decision
+};
 
 window.addEventListener("scroll", scrolling);
