@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SdP Portfolio</title>
+    <meta name="author" content="Simon du Plooy" />
+    <meta name="description" content="A portfolio website showcasing work of Simon Du Plooy, a game design student"/>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="style/typingstyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="caveat-regular">
+    <header>
+        <p>Here is a little typing test mimicking Monkeytype to showcase some Javascript functionality. I am also big into keyboards so doing
+            typing tests are quite fun for me. (My personal best is 87 WPM at 100% accurate if you can beat that)
+        </p>
+    </header>
+
+    <nav>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blogs/index.html">Blogs</a></li>
+        <li><a href="../essays/index.html">Essays</a></li>
+        <li><a href="../webdesign/index.html">Webdesign</a></li>
+        <li><a href="../typingtest/index.html">Typing Test</a></li>
+    </nav>
+    
+    <main class="game">
+        <div class="information">
+            <div class="wpm">
+                <div class="text">wpm</div>
+                <div class="currentWPM">0</div>
+            </div>
+
+            <div class="cpm">
+                <div class="text">cpm</div>
+                <div class="currentCPM">0</div>
+            </div>
+
+            <div class="err">
+                <div class="text">Errors</div>
+                <div class="currentERR">0</div>
+            </div>
+
+            <div class="time">
+                <div class="text">Time</div>
+                <div class="currentTIME">0s</div>
+            </div>
+            
+            <div class="acc">
+                <div class="text">Accuracy</div>
+                <div class="currentACC">0</div>
+            </div>
+        </div>
+
+        <div class="textToType">
+            Click below to start game
+        </div>
+
+        <textarea class="input" placeholder="Start typing here:" oninput="processCurrText()" onfocus="startGame()"></textarea>
+
+        <button class="restart" onclick="reset()">Restart</button>
+    </main>
+
+    <footer>
+        <nav>
+            <li><a href="https://github.com/SimonDuPlooyGit">Github account</a></li>
+            <li><a href="https://supersimonator6000.itch.io/">itch.io account</a></li>
+        </nav>
+    </footer>
+    
+    <script src="scripts/typinggame.js"></script>
+</body>
+</html>

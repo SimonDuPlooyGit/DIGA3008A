@@ -1,0 +1,72 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.wpm, .cpm, .err, .time, .acc {
+    background-color: #969696;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: black 5px 8px 5px;
+}
+
+.wpm, .cpm {
+    display: none;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.currentWPM, .currentCPM, .currentERR, .currentTIME, .currentACC {
+    font-size: 2em;
+}
+
+.textToType {
+    background-color: #969696;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.input {
+    background-color: #f5f5c6;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.restart{
+    display: none;
+    background-color: #326765;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
+
+.correct {
+    color: lightgreen;
+}
