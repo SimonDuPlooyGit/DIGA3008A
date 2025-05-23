@@ -1,8 +1,3 @@
-/**addEventListener("DOMContentLoaded", (event) => { })
-{
-    
-}*/
-
 let toTopLink = document.querySelector(".ToTop");
 let prevScrollPos = window.pageYOffset;
 
@@ -15,7 +10,6 @@ const scrolling = () => {
     let scrollPos = window.pageYOffset;
     let scrollingDown = isScrollingDown(scrollPos);
 
-    // Debug color change
     document.body.style.backgroundColor = scrollingDown ? "red" : "blue";
 
     if (scrollingDown) {
@@ -24,7 +18,7 @@ const scrolling = () => {
         toTopLink.style.bottom = "15px";
     }
 
-    prevScrollPos = scrollPos; // Update after decision
+    prevScrollPos = scrollPos;
 };
 
 window.addEventListener("scroll", scrolling);

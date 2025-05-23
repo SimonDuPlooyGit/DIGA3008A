@@ -5,3 +5,7 @@
 .show {
     display: block;
 }
+
+.dropdownbutton {
+    font-size: 2em;
+}

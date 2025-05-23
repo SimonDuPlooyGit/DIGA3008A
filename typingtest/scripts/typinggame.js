@@ -2,12 +2,12 @@ let TIME_LIMIT = 60;
 
 //Use an API to generate quotes/fetch quotes so that I don't have to populate this
 let textsToType = [
-    "Push yourself, because no one else is going to do it for you.",
-    "Failure is the condiment that gives success its flavor.",
-    "Wake up with determination. Go to bed with satisfaction.",
-    "It's going to be hard, but hard does not mean impossible.",
-    "Learning never exhausts the mind.",
-    "The only way to do great work is to love what you do."
+    "The first rule of Fight Club is you do not talk about Fight Club.",
+    "You're gonna need a bigger boat.",
+    "Snakes. Why did it have to be snakes?",
+    "I believe whatever doesn't kill you simply makes you a stranger.",
+    "I'm gonna make him an offer he can't refuse.",
+    "Are you feeling lucky, punk?"
 ];
 
 let timeLeft = TIME_LIMIT;
@@ -157,7 +157,7 @@ function finish() {
     textToType.textContent = "Click restart to play again";
     restart.style.display = "block";
     cpm = Math.round(((character / timePassed) * 60));
-    wpm = Math.round((((character / 5) / timePassed) * 60))
+    wpm = Math.round((((character / 5) / timePassed) * 60));
     cpmText.textContent = cpm;
     wpmText.textContent = wpm;
     cpmStuff.style.display = "block";

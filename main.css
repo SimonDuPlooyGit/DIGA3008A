@@ -37,13 +37,13 @@ nav li {
 }
 
 .ToTop {
-    font-size: 2.5em;
+    font-size: 2em;
     position: fixed;
     right: 15px;
     bottom: -100px;
 
     background-color: black;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     border-radius: 80%;
     transition: transform 1s ease-in-out
@@ -80,7 +80,7 @@ a:visited {
 }
 
 a:hover {
-    color: salmon;
+    color: lavender;
 }
 
 .caveat-regular {
@@ -108,14 +108,12 @@ a:hover {
     font-style: normal;
 }
 
-
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .bottom-paragraph {
