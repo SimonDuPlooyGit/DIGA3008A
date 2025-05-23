@@ -70,13 +70,13 @@ ol {
     font-size: 200%;
 }
 
-a{
-    color: green;
+a {
+    color: blue;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: purple;
 }
 
 a:hover {
@@ -106,6 +106,16 @@ a:hover {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+}
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .bottom-paragraph {
