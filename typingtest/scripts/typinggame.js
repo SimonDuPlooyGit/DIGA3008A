@@ -7,7 +7,8 @@ let textsToType = [
     "Snakes. Why did it have to be snakes?",
     "I believe whatever doesn't kill you simply makes you a stranger.",
     "I'm gonna make him an offer he can't refuse.",
-    "Are you feeling lucky, punk?"
+    "Are you feeling lucky, punk?",
+    "Chicken Jockey!"
 ];
 
 let timeLeft = TIME_LIMIT;
