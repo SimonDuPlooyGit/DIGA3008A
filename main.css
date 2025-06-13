@@ -71,12 +71,12 @@ ol {
 }
 
 a {
-    color: blue;
+    color: rgb(52, 173, 218);
     text-decoration: none;
 }
 
 a:visited {
-    color: purple;
+    color: rgb(204, 2, 204);
 }
 
 a:hover {
